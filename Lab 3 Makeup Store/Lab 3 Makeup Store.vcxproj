@@ -127,9 +127,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Eyes.h" />
+    <ClInclude Include="Face.h" />
+    <ClInclude Include="Lips.h" />
+    <ClInclude Include="Receipt.h" />
     <ClInclude Include="UserOrder.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Eyes.cpp" />
+    <ClCompile Include="Face.cpp" />
+    <ClCompile Include="Lips.cpp" />
+    <ClCompile Include="Receipt.cpp" />
+    <ClCompile Include="Source.cpp" />
     <ClCompile Include="UserOrder.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
