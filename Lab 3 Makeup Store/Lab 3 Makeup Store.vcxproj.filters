@@ -18,16 +18,19 @@
     <ClInclude Include="UserOrder.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Eyes.h">
+    <ClInclude Include="EyeProducts.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Lips.h">
+    <ClInclude Include="LipProducts.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Face.h">
+    <ClInclude Include="FaceProducts.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Receipt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Product.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -35,19 +38,22 @@
     <ClCompile Include="UserOrder.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Eyes.cpp">
+    <ClCompile Include="EyeProducts.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Lips.cpp">
+    <ClCompile Include="LipProducts.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Face.cpp">
+    <ClCompile Include="FaceProducts.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Source.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Receipt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Product.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

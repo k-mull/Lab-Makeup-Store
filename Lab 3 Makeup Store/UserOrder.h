@@ -1,19 +1,20 @@
 #ifndef USERORDER_H
 #define USERORDER_H
-#include "Face.h"
-#include "Lips.h"
-#include "Eyes.h"
-class UserOrder : public Eyes, public Face, public Lips
-{
+#include <iostream>
+using namespace std;
+class UserOrder {
 private:
-	int makeupChoice;
-	char anotherOrder;
+	string username;
+	string phoneNumber;
 	
 public:
 	UserOrder();
-	UserOrder(int makeChoice, char addOrder);
-	bool AddAnotherOrder();
-	void Order();
+	UserOrder(string username, string phoneNumber);
+	void setUserName(string username);
+	string getUserName();
+	void setPhoneNumber(string phoneNumber);
+	string getPhoneNumber();
+	void displayUser();
 	
 };
 #endif
