@@ -7,8 +7,8 @@ LipProducts::LipProducts()
 	this->setName("Elf Super Stay");
 	this->setPrice(6.99);
 
-	//default lip shade
-	lipChoice = "pink";
+	//default lip property
+	lipChoice = "plumping";
 }
 LipProducts::LipProducts(string n, double p, string s)
 {

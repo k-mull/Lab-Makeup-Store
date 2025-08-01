@@ -8,8 +8,8 @@
 using namespace std;
 int main()
 {
-    //creating new objects with the name, priace, and color/type
- LipProducts l1("Velvet Kiss", 15.99, "Red");
+    //creating new objects with the name, price, and color/type
+ LipProducts l1("Velvet Kiss", 15.99, "Moisturizing");
  FaceProducts f1("Flawless Finish", 25.50, "Oily");
  EyeProducts e1("Long Lash", 26.00, "Black");
 

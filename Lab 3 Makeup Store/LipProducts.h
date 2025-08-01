@@ -7,7 +7,7 @@ using namespace std;
 class LipProducts : public Product
 {
 private:
-	//the variable for the shade of the lip product
+	//the variable for the abitlity of the lip product
 	string lipChoice;
 public:
 	//costructors
