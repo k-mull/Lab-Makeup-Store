@@ -3,8 +3,11 @@
 using namespace std;
 LipProducts::LipProducts()
 {
+	//setters from parent function
 	this->setName("Elf Super Stay");
 	this->setPrice(6.99);
+
+	//default lip shade
 	lipChoice = "pink";
 }
 LipProducts::LipProducts(string n, double p, string s)
@@ -13,6 +16,7 @@ LipProducts::LipProducts(string n, double p, string s)
 	this-> setPrice(p);
 	lipChoice = s;
 }
+//implemenation for setter and getter
 void LipProducts::setLipChoice(string lipChoice)
 {
 	this->lipChoice = lipChoice;
@@ -21,6 +25,8 @@ string LipProducts::getLipChoice()
 {
 	return lipChoice;
 }
+
+//the display for each lip product
 void LipProducts::display()
 {
 	cout << "Lip Product: " << getName() << endl;
